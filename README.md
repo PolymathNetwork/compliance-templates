@@ -1,6 +1,12 @@
-# Informaiton about compliance templates and examples
+# Information about compliance templates and examples
 
-### On chain information
+### Example file
+See `example.json`
+
+### JSON schema
+See `schema.json`
+
+### On chain fields
 ```
     "jurisdictions": ["US", "CA"], // Array of location where this template works
     "fixedFee": 100 POLY, // Fixed cost to use the template >= 0, can be edited by template creator 
