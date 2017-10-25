@@ -1,0 +1,18 @@
+{
+  "name": "ComplianceTemplate1",
+  "description": "First compliance template ever made",
+  "process": [
+    {
+      "summary": "Upload Prospectus",
+      "details": "Upload a prospectus that contains the following information",
+    },
+    {
+      "summary": "Fill out Form B",
+      "details": "Download Form B from the website, fill it out",
+    },
+    {
+      "summary": "Submit Form B",
+      "details": "Submit Form B to the department of forms",
+    }
+  ]
+}

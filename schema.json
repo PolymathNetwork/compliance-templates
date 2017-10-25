@@ -1,0 +1,38 @@
+{
+  "title": "Legal template",
+  "description": "A legal template with set of steps",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a template",
+      "type": "string"
+    },
+    "name": {
+      "description": "Name of the template",
+      "type": "string"
+    },
+    "process": {
+      "items": {
+        "type": "object",
+        "properties": {
+          "summary": {
+            "description": "The name of this step",
+            "type": "string"
+          },
+          "details": {
+            "description": "A detailed description of what needs to be done during this step.",
+            "type": "string"
+          },
+          "hash": {
+            "description": "Hash of the supporting document or documents",
+            "type": "string"
+          }
+        },
+        "required": ["summary", "details"]
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["id", "name", "price", "process"]
+
+}
